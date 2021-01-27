@@ -1,0 +1,30 @@
+# This covers Quandoo Listing Page Visual Testing
+========================================
+@objects
+    listing_header       xpath         //div[@data-qa='listing-header']
+    breadcrumbs          xpath         //div[@data-qa='breadcrumbs']
+    language_selector    xpath         //div[@data-qa='lang-selector-toggle']
+    log_in               xpath         //div[@data-qa='header-login']
+
+========================================
+# Validation on desktop resolutions
+@on desktop
+========================================
+
+= Header section =
+    breadcrumbs:
+      height ~ 40px
+      width 1300 to 1380px
+
+    listing_header:
+      height 442 to 446px
+      width ~ 887px
+
+    language_selector:
+      right-of log_in 1 to 42px
+      css font-size is "14px"
+      css font-family matches ".*Roboto.*, .*Helvetica.*,.*Arial.*,.*sans-serif.*"
+
+
+
+

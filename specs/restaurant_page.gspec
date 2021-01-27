@@ -1,0 +1,12 @@
+# This covers Quandoo Restaurant Page Visual Testing
+========================================
+@objects
+    guest_amount   xpath         //*[@data-qa="widget-guest-amount-dropdown-selection"]
+
+========================================
+# Validation on desktop resolutions
+@on *
+========================================
+
+    guest_amount:
+        width ~ 320px

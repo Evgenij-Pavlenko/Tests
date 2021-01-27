@@ -1,0 +1,4 @@
+Restaurant page test
+    selenium chrome https://www.quandoo.de/en/place/tropica-grill-86591 1600x1200
+        run scripts/accept_cookies.js
+        check specs/restaurant_page.gspec
