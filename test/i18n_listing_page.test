@@ -3,8 +3,8 @@
 @@ table languages
         | locale |
         | en     |
-        # de     |
-       # | fi     |
+        #| de     |
+       #| fi     |
         #| fr     |
        # | hk     |
        # | it     |
