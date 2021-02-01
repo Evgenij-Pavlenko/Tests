@@ -5,7 +5,7 @@
     breadcrumbs          xpath         //div[@data-qa='breadcrumbs']
     language_selector    xpath         //div[@data-qa='lang-selector-toggle']
     log_in               xpath         //div[@data-qa='header-login']
-    find_btn             xpath         //button[@data-qa='button-search-find-hero']
+    find_btn             xpath         //button[@data-qa='button-search-find-header']
     footer_login          xpath         //div[contains(@class, 'gNqYxZ')]
     footer_copyright      xpath         //div[contains(text(), 'GmbH')]
 ========================================
@@ -36,7 +36,7 @@
     footer_login:
       height ~37px
       width ~165px
-      above footer_copyright
+      above footer_copyright ~-37px
 
     footer_copyright:
       text is "©2021 Quandoo GmbH. All rights reserved"
