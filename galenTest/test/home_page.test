@@ -1,0 +1,5 @@
+Home page test
+    selenium chrome https://quandoo.de 1366x768
+        #properties /i18n/top-cities.properties
+        run scripts/accept_cookies.js
+        check specs/listing_page.gspec

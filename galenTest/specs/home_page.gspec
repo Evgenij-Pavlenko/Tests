@@ -1,0 +1,19 @@
+=====================================
+@objects
+    top-cities-*        xpath       //*[@class='sc-1uonb2l-0 ivaRxY']
+======================================
+
+
+
+@on desktop
+========================================
+
+= Cities section =
+    @for [1-10] as index
+      top-cities-${index}:
+    #top-cities-${index}:
+      wight ~448px
+      height ~135px
+
+    # top-cities-name-${index}:
+        #text is "Restaurants in &{index}"

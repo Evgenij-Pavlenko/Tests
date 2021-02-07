@@ -1,0 +1,42 @@
+# This covers Quandoo Listing Page Visual Testing
+========================================
+@objects
+    listing_header       xpath         //div[@data-qa='listing-header']
+    breadcrumbs          xpath         //div[@data-qa='breadcrumbs']
+    language_selector    xpath         //div[@data-qa='lang-selector-toggle']
+    log_in               xpath         //div[@data-qa='header-login']
+    find_btn             xpath         //button[@data-qa='button-search-find-header']
+    footer_login         xpath         //div[contains(@class, 'gNqYxZ')]
+    footer_copyright     xpath         //div[contains(text(), 'GmbH')]
+========================================
+# Validation on desktop resolutions
+@on desktop
+========================================
+
+= Header section =
+    breadcrumbs:
+      height ~ 40px
+      width 1300 to 1380px
+
+    listing_header:
+      height 442 to 446px
+      width ~ 887px
+
+    language_selector:
+      right-of log_in 1 to 42px
+      css font-size is "14px"
+      css font-family matches ".*Roboto.*, .*Helvetica.*,.*Arial.*,.*sans-serif.*"
+
+= Filter section =
+    find_btn:
+      text is "${i18n.find.button}"
+      height ~40px
+
+= footer section =
+    footer_login:
+      height ~37px
+      width ~165px
+      above footer_copyright ~-37px
+
+    footer_copyright:
+      text is "©2021 Quandoo GmbH. All rights reserved"

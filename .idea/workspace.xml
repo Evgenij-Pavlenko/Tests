@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/Mac/chromedriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/Mac/geckodriver" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/Win/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/galen.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-de.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-en.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-fi.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-fr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-hk.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-it.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-nl.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/i18n/listing-page-tr.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/accept_cookies.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/listing_page.gspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/specs/restaurant_page.gspec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/i18n_listing_page.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/page.test" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2.1\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1nflvZG6OdhCaLlzxnGIiBCzHwI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/seleniumTest" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Programming\Tests\test" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="" />
+      <created>1611789256709</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611789256709</updated>
+      <workItem from="1611789257794" duration="292000" />
+      <workItem from="1611789827988" duration="278000" />
+      <workItem from="1611939182978" duration="175000" />
+      <workItem from="1611939398606" duration="5381000" />
+      <workItem from="1612009503449" duration="6996000" />
+      <workItem from="1612202858418" duration="7247000" />
+      <workItem from="1612370572068" duration="84000" />
+    </task>
+    <task id="LOCAL-00001" summary="First test with galen framework">
+      <created>1611789523241</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611789523241</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First test with galen framework">
+      <created>1611789991259</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611789991259</updated>
+    </task>
+    <task id="LOCAL-00003" summary="test footer-logo">
+      <created>1612016888783</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612016888783</updated>
+    </task>
+    <task id="LOCAL-00004" summary="test footer-logo update">
+      <created>1612203527982</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1612203527982</updated>
+    </task>
+    <task id="LOCAL-00005" summary="test footer-logo formatting">
+      <created>1612205439876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1612205439876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First test with galen framework" />
+    <MESSAGE value="test footer-logo" />
+    <MESSAGE value="test footer-logo update" />
+    <MESSAGE value="test footer-logo formatting" />
+    <option name="LAST_COMMIT_MESSAGE" value="test footer-logo formatting" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="578" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612205989967">
+      <screen x="0" y="0" width="1683" height="914" />
+    </state>
+    <state x="578" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1683.914@0.0.1683.914" timestamp="1612205989967" />
+    <state x="430" y="26" key="CommitChangelistDialog2" timestamp="1612205437891">
+      <screen x="0" y="0" width="1683" height="914" />
+    </state>
+    <state x="390" y="26" key="CommitChangelistDialog2/0.0.1526.913@0.0.1526.913" timestamp="1612016887369" />
+    <state x="393" y="25" key="CommitChangelistDialog2/0.0.1536.877@0.0.1536.877" timestamp="1611789986667" />
+    <state x="430" y="26" key="CommitChangelistDialog2/0.0.1683.914@0.0.1683.914" timestamp="1612205437891" />
+    <state x="621" y="199" key="FileChooserDialogImpl" timestamp="1612370674588">
+      <screen x="0" y="0" width="1682" height="889" />
+    </state>
+    <state x="621" y="199" key="FileChooserDialogImpl/0.0.1682.889@0.0.1682.889" timestamp="1612370674588" />
+    <state x="600" y="159" key="RollbackChangesDialog" timestamp="1611947304213">
+      <screen x="0" y="0" width="1526" height="913" />
+    </state>
+    <state x="600" y="159" key="RollbackChangesDialog/0.0.1526.913@0.0.1526.913" timestamp="1611947304213" />
+    <state x="290" y="99" key="SettingsEditor" timestamp="1611939565026">
+      <screen x="0" y="0" width="1579" height="908" />
+    </state>
+    <state x="290" y="99" key="SettingsEditor/0.0.1579.908@0.0.1579.908" timestamp="1611939565026" />
+    <state x="395" y="178" key="Vcs.Push.Dialog.v2" timestamp="1612203536383">
+      <screen x="0" y="0" width="1683" height="914" />
+    </state>
+    <state x="358" y="178" key="Vcs.Push.Dialog.v2/0.0.1526.913@0.0.1526.913" timestamp="1612016891174" />
+    <state x="360" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.877@0.0.1536.877" timestamp="1611790036399" />
+    <state x="395" y="178" key="Vcs.Push.Dialog.v2/0.0.1683.914@0.0.1683.914" timestamp="1612203536383" />
+    <state x="559" y="310" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611790014227">
+      <screen x="0" y="0" width="1536" height="877" />
+    </state>
+    <state x="559" y="310" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.877@0.0.1536.877" timestamp="1611790014227" />
+  </component>
+</project>

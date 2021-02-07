@@ -1,0 +1,30 @@
+#@@import page.test
+
+@@ table languages
+        | locale |
+        | en     |
+        #| de     |
+       #| fi     |
+        #| fr     |
+       # | hk     |
+       # | it     |
+        #| nl     |
+        #| tr     |
+
+@@ table screen_sizes
+        |size|
+        |1366x768|
+
+@@ table browsers
+        |browser|
+        |chrome|
+        #|firefox|
+
+@@ parameterized using languages
+@@ parameterized using browsers
+@@ parameterized using screen_sizes
+Listing page test for ${locale} language
+    selenium ${browser} https://quandoo.de/${locale}/berlin ${size}
+        properties i18n/listing-page-${locale}.properties
+        run scripts/accept_cookies.js
+        check specs/listing_page.gspec
