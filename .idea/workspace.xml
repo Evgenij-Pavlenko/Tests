@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/Mac/chromedriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/Mac/geckodriver" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/Win/chromedriver.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/galen.config" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-de.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-en.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-fi.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-fr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-hk.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-it.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-nl.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/i18n/listing-page-tr.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/accept_cookies.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/listing_page.gspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/specs/restaurant_page.gspec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/i18n_listing_page.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/page.test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp/src/test/java/herokuapp/HoversTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp/src/test/java/herokuapp/HoversTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +30,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/seleniumTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -71,6 +54,7 @@
       <workItem from="1612009503449" duration="6996000" />
       <workItem from="1612202858418" duration="7247000" />
       <workItem from="1612370572068" duration="84000" />
+      <workItem from="1612740526662" duration="317000" />
     </task>
     <task id="LOCAL-00001" summary="First test with galen framework">
       <created>1611789523241</created>
@@ -107,7 +91,21 @@
       <option name="project" value="LOCAL" />
       <updated>1612205439876</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test footer-logo formatting">
+      <created>1612740598866</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1612740598866</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Tests">
+      <created>1612740784554</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1612740784554</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,18 +116,20 @@
     <MESSAGE value="test footer-logo" />
     <MESSAGE value="test footer-logo update" />
     <MESSAGE value="test footer-logo formatting" />
-    <option name="LAST_COMMIT_MESSAGE" value="test footer-logo formatting" />
+    <MESSAGE value="add Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="578" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612205989967">
       <screen x="0" y="0" width="1683" height="914" />
     </state>
     <state x="578" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1683.914@0.0.1683.914" timestamp="1612205989967" />
-    <state x="430" y="26" key="CommitChangelistDialog2" timestamp="1612205437891">
-      <screen x="0" y="0" width="1683" height="914" />
+    <state x="430" y="25" key="CommitChangelistDialog2" timestamp="1612740782375">
+      <screen x="0" y="0" width="1682" height="889" />
     </state>
     <state x="390" y="26" key="CommitChangelistDialog2/0.0.1526.913@0.0.1526.913" timestamp="1612016887369" />
     <state x="393" y="25" key="CommitChangelistDialog2/0.0.1536.877@0.0.1536.877" timestamp="1611789986667" />
+    <state x="430" y="25" key="CommitChangelistDialog2/0.0.1682.889@0.0.1682.889" timestamp="1612740782375" />
     <state x="430" y="26" key="CommitChangelistDialog2/0.0.1683.914@0.0.1683.914" timestamp="1612205437891" />
     <state x="621" y="199" key="FileChooserDialogImpl" timestamp="1612370674588">
       <screen x="0" y="0" width="1682" height="889" />
@@ -143,11 +143,12 @@
       <screen x="0" y="0" width="1579" height="908" />
     </state>
     <state x="290" y="99" key="SettingsEditor/0.0.1579.908@0.0.1579.908" timestamp="1611939565026" />
-    <state x="395" y="178" key="Vcs.Push.Dialog.v2" timestamp="1612203536383">
-      <screen x="0" y="0" width="1683" height="914" />
+    <state x="395" y="173" key="Vcs.Push.Dialog.v2" timestamp="1612740796243">
+      <screen x="0" y="0" width="1682" height="889" />
     </state>
     <state x="358" y="178" key="Vcs.Push.Dialog.v2/0.0.1526.913@0.0.1526.913" timestamp="1612016891174" />
     <state x="360" y="171" key="Vcs.Push.Dialog.v2/0.0.1536.877@0.0.1536.877" timestamp="1611790036399" />
+    <state x="395" y="173" key="Vcs.Push.Dialog.v2/0.0.1682.889@0.0.1682.889" timestamp="1612740796243" />
     <state x="395" y="178" key="Vcs.Push.Dialog.v2/0.0.1683.914@0.0.1683.914" timestamp="1612203536383" />
     <state x="559" y="310" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1611790014227">
       <screen x="0" y="0" width="1536" height="877" />
