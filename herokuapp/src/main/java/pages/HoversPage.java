@@ -16,7 +16,7 @@ public class HoversPage extends Page {
         super(driver);
     }
 
-    private static final String HOVER_URL = "http://the-internet.herokuapp.com/hovers";
+    private static final String HOVER_URL = BASE_URL + "/hovers";
 
     public void goToHoversPage() {
         driver.navigate().to(HOVER_URL);

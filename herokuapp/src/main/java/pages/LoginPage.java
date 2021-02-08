@@ -2,26 +2,24 @@ package pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.FindBy;
-
-import java.util.List;
 
 /**
  * Login Page
  */
 public class LoginPage extends Page {
 
-    @FindBy(name = "username")
-    // Тут посложнее - надо доп.класс создавать. Не стал заморачиваться
-    private WebElement userName;
+//    @FindBy(name = "username")
+//    // Тут посложнее - надо доп.класс создавать. Не стал заморачиваться
+//    private WebElement userName = By.name("username");
+
+    private static final String LOGIN_URL = BASE_URL + "/login";
+    private static final By username = By.name("username");
+    private static final By password = By.name("password");
+    private static final By loginKey = By.className("fa");
 
     public LoginPage(WebDriver driver) {
         super(driver);
     }
-
-    private static final String LOGIN_URL = "http://the-internet.herokuapp.com/login";
 
     public void goToLoginPage() {
         driver.navigate().to(LOGIN_URL);
@@ -29,19 +27,18 @@ public class LoginPage extends Page {
     }
 
     public void loginWithNameAndPass(String name, String pass) {
-        WebElement userName = driver.findElement(By.name("username"));
-        WebElement userPassword = driver.findElement(By.name("password"));
-        WebElement loginKey = driver.findElement(By.className("fa"));
-        userName.sendKeys(name);
-        userPassword.sendKeys(pass);
-        loginKey.submit();
+        driver.findElement(username).sendKeys(name);
+        driver.findElement(password).sendKeys(pass);
     }
 
     public boolean isMessageLoginPresent(String message) {
-        WebElement loginTrue = driver.findElement(By.id("flash"));
-        String loginMessage = loginTrue.getText();
+        SecureArea sa = validClickLogin();
+        String loginMessage = sa.textMessage;
         return loginMessage.contains(message);
     }
 
-
+    public SecureArea validClickLogin() {
+        driver.findElement(loginKey).submit();
+        return new SecureArea(driver);
+    }
 }
