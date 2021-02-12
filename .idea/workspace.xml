@@ -1,7 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="" />
+    <list default="true" id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/main/java/pages/DropdownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/main/java/pages/HorizontalPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/DropdownTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/HorizontalPageTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp-selenide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp-selenide/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/ForgotPassword.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTests/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/5/4/54209dcc61ab2d0a2411828fc5a2c22f7bf9507d" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/5/4/54209dcc61ab2d0a2411828fc5a2c22f7bf9507d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,6 +97,8 @@
       <workItem from="1612202858418" duration="7247000" />
       <workItem from="1612370572068" duration="84000" />
       <workItem from="1612740526662" duration="571000" />
+      <workItem from="1612790176189" duration="27000" />
+      <workItem from="1613149552378" duration="41000" />
     </task>
     <task id="LOCAL-00001" summary="First test with galen framework">
       <created>1611789523241</created>

@@ -1,32 +1,34 @@
 
 H
 java:S1199,"-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
-0
-java:S1220""Move this file to a named package.
-_
-java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó
-i
-java:S1128"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ
-K
-java:S1128"5Remove this unused import 'org.openqa.selenium.Keys'.(§Õ
-Q
-java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ
-D
-java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ
 ]
 java:S1128"GRemove this unused import 'org.openqa.selenium.remote.RemoteWebDriver'.(ú£Ú—
-a
-java:S1128"KRemove this unused import 'org.openqa.selenium.remote.DesiredCapabilities'.(¦ò©Š
+_
+java:S1128"IRemove this unused import 'org.openqa.selenium.support.ui.WebDriverWait'.(¥÷ó
+D
+java:S1128")Remove this unused import 'java.net.URL'.(ñìÁ„üÿÿÿÿ
+K
+java:S1128"5Remove this unused import 'org.openqa.selenium.Keys'.(§Õ
+L
+java:S1128"6Remove this unused import 'org.openqa.selenium.Alert'.(Àã¥‰
+>
+java:S1068"(Remove this unused "vars" private field.(Á‘¿¼
+i
+java:S1128"NRemove this unused import 'org.openqa.selenium.support.ui.ExpectedConditions'.(û€Èéúÿÿÿÿ
+i
+java:S1450"SRemove the "vars" field and declare it as a local variable in the relevant methods.(Á‘¿¼
 a
 java:S1128
 "FRemove this unused import 'org.openqa.selenium.firefox.FirefoxDriver'.(Úª ÿÿÿÿÿ
+a
+java:S1128"KRemove this unused import 'org.openqa.selenium.remote.DesiredCapabilities'.(¦ò©Š
+0
+java:S1220""Move this file to a named package.
 [
 java:S1128"ERemove this unused import 'org.openqa.selenium.interactions.Actions'.(ÅÑÃ
-L
-java:S1128"6Remove this unused import 'org.openqa.selenium.Alert'.(Àã¥‰
-i
-java:S1450"SRemove the "vars" field and declare it as a local variable in the relevant methods.(Á‘¿¼
-t
-java:S2293!"YReplace the type specification in this constructor call with the diamond operator ("<>").(ü¿Ìøÿÿÿÿ
->
-java:S1068"(Remove this unused "vars" private field.(Á‘¿¼
+Q
+java:S1128";Remove this unused import 'java.net.MalformedURLException'.(ªËŞˆ
+`
+java:S1155.">Use isEmpty() to check whether the collection is empty or not.(ğ¸ ×üÿÿÿÿ8£—Èø.
+H
+java:S59602"+Remove this assertion from production code.(êüÒš8£—Èø.
