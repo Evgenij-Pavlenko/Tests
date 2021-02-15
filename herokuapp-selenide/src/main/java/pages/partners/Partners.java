@@ -53,22 +53,26 @@ public class Partners {
     public void acceptCookies() {
         acceptBtn.click();
     }
-
+    //*[@id='form-home']/div/div[1]/div/ul/li[]/input
     public void formFilling() {
 //        landDropdown.selectOption(rnd.nextInt(17)); // Land
 
         //Никак не получается выбрать страну из списка.
         //RND - отрабатывает нормально: li[14]
         landDropdown.click();
-        landDropdown.find(By.cssSelector("ul")).find(By.cssSelector("li[" + rnd.nextInt(17) + "]")).click();
+
+        // element not interactable
+        landDropdown
+                .find(By.xpath("./ul/li["+rnd.nextInt(18)+"]/*/input"))
+                .click();
         name.setValue(faker.name().firstName());
         lastName.setValue(faker.name().lastName());
         email.setValue(faker.internet().emailAddress());
-        telPrefix.selectOption(faker.phoneNumber().extension());
-        telNumber.selectOption(faker.phoneNumber().subscriberNumber(7));
-        typeOf.selectOption(rnd.nextInt(4));
-        quantity.setValue(String.valueOf(rnd.nextInt(4)));
-        politicaPrivacidad.click();
+//        telPrefix.selectOption(faker.phoneNumber().extension());
+//        telNumber.selectOption(faker.phoneNumber().subscriberNumber(7));
+//        typeOf.selectOption(rnd.nextInt(4));
+//        quantity.setValue(String.valueOf(rnd.nextInt(4)));
+//        politicaPrivacidad.click();
     }
 
     public void clickBtn() {

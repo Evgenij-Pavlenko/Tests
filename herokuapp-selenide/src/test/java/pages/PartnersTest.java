@@ -23,7 +23,7 @@ public class PartnersTest {
     @Test
     public void formFillingTest() {
         partners.formFilling();
-        partners.clickBtn();
+//        partners.clickBtn();
 
     }
 
