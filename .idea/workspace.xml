@@ -1,48 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/main/java/pages/DropdownPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/main/java/pages/HorizontalPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/DropdownTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/HorizontalPageTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_guava_guava_25_0_jre.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_params_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_junit_platform_junit_platform_engine_1_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seleniumTests/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herokuapp-selenide/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp-selenide/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/ForgotPassword.java" beforeDir="false" afterPath="$PROJECT_DIR$/herokuapp-selenide/src/test/java/herokuapp/ForgotPassword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTests/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTests/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/5/4/54209dcc61ab2d0a2411828fc5a2c22f7bf9507d" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/5/4/54209dcc61ab2d0a2411828fc5a2c22f7bf9507d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/seleniumTests/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-    </list>
+    <list default="true" id="353bc13c-394e-4e9d-8443-474e57510bef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -74,7 +33,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/herokuapp" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -99,6 +58,7 @@
       <workItem from="1612740526662" duration="571000" />
       <workItem from="1612790176189" duration="27000" />
       <workItem from="1613149552378" duration="41000" />
+      <workItem from="1613494544007" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="First test with galen framework">
       <created>1611789523241</created>
@@ -184,18 +144,20 @@
     <state x="393" y="25" key="CommitChangelistDialog2/0.0.1536.877@0.0.1536.877" timestamp="1611789986667" />
     <state x="430" y="25" key="CommitChangelistDialog2/0.0.1682.889@0.0.1682.889" timestamp="1612740941868" />
     <state x="430" y="26" key="CommitChangelistDialog2/0.0.1683.914@0.0.1683.914" timestamp="1612205437891" />
-    <state x="621" y="199" key="FileChooserDialogImpl" timestamp="1612741108902">
-      <screen x="0" y="0" width="1682" height="889" />
+    <state x="621" y="208" key="FileChooserDialogImpl" timestamp="1613494715427">
+      <screen x="0" y="0" width="1682" height="930" />
     </state>
     <state x="621" y="199" key="FileChooserDialogImpl/0.0.1682.889@0.0.1682.889" timestamp="1612741108902" />
+    <state x="621" y="208" key="FileChooserDialogImpl/0.0.1682.930@0.0.1682.930" timestamp="1613494715427" />
     <state x="600" y="159" key="RollbackChangesDialog" timestamp="1611947304213">
       <screen x="0" y="0" width="1526" height="913" />
     </state>
     <state x="600" y="159" key="RollbackChangesDialog/0.0.1526.913@0.0.1526.913" timestamp="1611947304213" />
-    <state x="290" y="99" key="SettingsEditor" timestamp="1611939565026">
-      <screen x="0" y="0" width="1579" height="908" />
+    <state x="309" y="101" key="SettingsEditor" timestamp="1613494583459">
+      <screen x="0" y="0" width="1682" height="930" />
     </state>
     <state x="290" y="99" key="SettingsEditor/0.0.1579.908@0.0.1579.908" timestamp="1611939565026" />
+    <state x="309" y="101" key="SettingsEditor/0.0.1682.930@0.0.1682.930" timestamp="1613494583459" />
     <state x="395" y="173" key="Vcs.Push.Dialog.v2" timestamp="1612740998076">
       <screen x="0" y="0" width="1682" height="889" />
     </state>
@@ -207,5 +169,9 @@
       <screen x="0" y="0" width="1536" height="877" />
     </state>
     <state x="559" y="310" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.877@0.0.1536.877" timestamp="1611790014227" />
+    <state x="432" y="116" key="new project wizard" timestamp="1613494729809">
+      <screen x="0" y="0" width="1682" height="930" />
+    </state>
+    <state x="432" y="116" key="new project wizard/0.0.1682.930@0.0.1682.930" timestamp="1613494729809" />
   </component>
 </project>
